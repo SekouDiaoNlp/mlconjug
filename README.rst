@@ -15,7 +15,7 @@ mlconjug3
         :target: https://travis-ci.org/SekouDiaoNlp/mlconjug3
         :alt: Linux Continuous Integration Status
 
-.. image:: https://ci.appveyor.com/api/projects/status/6iatj101xxfehbo8/branch/master?svg=true
+.. image:: https://ci.appveyor.com/api/projects/status/6qviosq0i9sqvft5?svg=true
         :target: https://ci.appveyor.com/project/SekouDiaoNlp/mlconjug3
         :alt: Windows Continuous Integration Status
 
