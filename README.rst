@@ -1,9 +1,9 @@
-.. image:: https://raw.githubusercontent.com/SekouD/mlconjug/master/logo/logotype2%20mlconjug.png
-        :target: https://pypi.python.org/pypi/mlconjug
-        :alt: mlconjug PyPi Home Page
+.. image:: https://raw.githubusercontent.com/SekouDiaoNlp/mlconjug3/master/logo/logotype2%20mlconjug.png
+        :target: https://pypi.python.org/pypi/mlconjug3
+        :alt: mlconjug3 PyPi Home Page
 
 ========
-mlconjug
+mlconjug3
 ========
 
 
@@ -16,11 +16,11 @@ mlconjug
         :alt: Linux Continuous Integration Status
 
 .. image:: https://ci.appveyor.com/api/projects/status/6iatj101xxfehbo8/branch/master?svg=true
-        :target: https://ci.appveyor.com/project/SekouD/mlconjug
+        :target: https://ci.appveyor.com/project/SekouDiaoNlp/mlconjug3
         :alt: Windows Continuous Integration Status
 
-.. image:: https://readthedocs.org/projects/mlconjug/badge/?version=latest
-        :target: https://mlconjug.readthedocs.io/en/latest
+.. image:: https://readthedocs.org/projects/mlconjug3/badge/?version=latest
+        :target: https://mlconjug3.readthedocs.io/en/latest
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/SekouDiaoNlp/mlconjug3/shield.svg
@@ -31,8 +31,8 @@ mlconjug
         :target: https://codecov.io/gh/SekouDiaoNlp/mlconjug3
         :alt: Code Coverage Status
 
-.. image:: https://snyk.io/test/github/SekouD/mlconjug/badge.svg?targetFile=requirements.txt
-        :target: https://snyk.io/test/github/SekouD/mlconjug?targetFile=requirements.txt
+.. image:: https://snyk.io/test/github/SekouDiaoNlp/mlconjug3/badge.svg?targetFile=requirements.txt
+        :target: https://snyk.io/test/github/SekouDiaoNlp/mlconjug3?targetFile=requirements.txt
         :alt: Code Vulnerability Status
 
 
@@ -46,7 +46,7 @@ mlconjug
 - a feature selector using Linear Support Vector Classification,
 - a classifier using Stochastic Gradient Descent.
 
-| MLConjug uses scikit-learn to implement the Machine Learning algorithms.
+| mlconjug3 uses scikit-learn to implement the Machine Learning algorithms.
 | Users of the library can use any compatible classifiers from scikit-learn to modify and retrain the models.
 
 | The training data for the french model is based on Verbiste https://perso.b2b2c.ca/~sarrazip/dev/verbiste.html .
@@ -55,7 +55,7 @@ mlconjug
 
 
 * Free software: MIT license
-* Documentation: https://mlconjug.readthedocs.io.
+* Documentation: https://mlconjug3.readthedocs.io.
 
 Supported Languages
 -------------------
@@ -74,7 +74,7 @@ Features
 - Easy to use API.
 - Includes pre-trained models with 99% + accuracy in predicting conjugation class of unknown verbs.
 - Easily train new models or add new languages.
-- Easily integrate MLConjug in your own projects.
+- Easily integrate mlconjug3 in your own projects.
 - Can be used as a command line tool.
 
 Credits
