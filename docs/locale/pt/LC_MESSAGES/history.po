@@ -1,7 +1,7 @@
 # TRANSLATION TEMPLATE FOR history.rst.
-# Copyright (C) 2018, SekouD
+# Copyright (C) 2018, SekouDiaoNlp
 # This file is distributed under the same license as the MLConjug package.
-# SekouD <sekoud.python@gmail.com>, 2018.
+# SekouDiaoNlp <diao.sekou.nlp@gmail.com>, 2018.
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 11:51+0200\n"
 "PO-Revision-Date: 2018-06-16 18:14+0000\n"
-"Last-Translator: SekouD <sekoud.python@gmail.com>.\n"
+"Last-Translator: SekouDiaoNlp <diao.sekou.nlp@gmail.com>.\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -60,10 +60,10 @@ msgstr ""
 "melhor manipulação de caracteres unicode."
 
 #: ../../../HISTORY.rst:23
-msgid "New class ConjugManager to more easily add new languages to mlconjug."
+msgid "New class ConjugManager to more easily add new languages to mlconjug3."
 msgstr ""
 "Nova classe ConjugManager para adicionar mais facilmente novos idiomas ao "
-"mlconjug."
+"mlconjug3."
 
 #: ../../../HISTORY.rst:28
 #, fuzzy
@@ -139,11 +139,11 @@ msgstr ""
 
 #: ../../../HISTORY.rst:41
 msgid ""
-"The whole package have been typed check. I will soon add mlconjug's type "
+"The whole package have been typed check. I will soon add mlconjug3's type "
 "stubs to typeshed."
 msgstr ""
 "Todo o pacote foi digitado como cheque. Em breve, adicionarei os stubs de "
-"tipo do mlconjug ao typeshed."
+"tipo do mlconjug3 ao typeshed."
 
 #: ../../../HISTORY.rst:45
 #, fuzzy
@@ -283,10 +283,10 @@ msgstr "Melhorado a localização do programa."
 
 #: ../../../HISTORY.rst:65 ../../../HISTORY.rst:78
 msgid ""
-"Now the user interface of mlconjug is avalaible in French, Spanish, Italian,"
+"Now the user interface of mlconjug3 is avalaible in French, Spanish, Italian,"
 " Portuguese and Romanian, in addition to English."
 msgstr ""
-"Agora a interface do usuário do mlconjug está disponível em francês, "
+"Agora a interface do usuário do mlconjug3 está disponível em francês, "
 "espanhol, italiano, português e romeno, além do inglês."
 
 #: ../../../HISTORY.rst:66

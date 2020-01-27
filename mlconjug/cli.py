@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-"""Console script for mlconjug."""
+"""Console script for mlconjug3."""
 
 import click
-from .mlconjug import Conjugator
+from .mlconjug3 import Conjugator
 import json
 import logging
 import sys
@@ -43,11 +43,11 @@ def main(verbs, language, output, subject):
     Users of the library can use any compatible classifiers from scikit-learn to modify and retrain the pipeline.
 
     Usage example:
-        $ mlconjug manger
+        $ mlconjug3 manger
 
-        $ mlconjug bring -l en
+        $ mlconjug3 bring -l en
 
-        $ mlconjug gallofar --language es
+        $ mlconjug3 gallofar --language es
 
     """
     logger = logging.getLogger(__name__)

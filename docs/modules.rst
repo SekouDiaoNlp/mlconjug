@@ -1,22 +1,22 @@
-======================================
-Package Api Documentation for mlconjug
-======================================
+=======================================
+Package Api Documentation for mlconjug3
+=======================================
 
 
-API Reference for the classes in mlconjug.mlconjug.py
+API Reference for the classes in mlconjug3.mlconjug3.py
 -----------------------------------------------------
 
-.. automodule:: mlconjug.mlconjug
+.. automodule:: mlconjug3.mlconjug3
     :member-order: bysource
     :members:
     :private-members:
     :show-inheritance:
 
 
-API Reference for the classes in mlconjug.PyVerbiste.py
+API Reference for the classes in mlconjug3.PyVerbiste.py
 -------------------------------------------------------
 
-.. automodule:: mlconjug.PyVerbiste
+.. automodule:: mlconjug3.PyVerbiste
     :member-order: bysource
     :members:
     :private-members:

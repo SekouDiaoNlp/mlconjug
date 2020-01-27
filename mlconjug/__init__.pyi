@@ -1,7 +1,7 @@
-# Stubs for mlconjug (Python 3)
+# Stubs for mlconjug3 (Python 3)
 
 
-from .mlconjug import *
+from .mlconjug3 import *
 from .PyVerbiste import *
 from typing import Text, Tuple, Any, Union
 from logging import Logger

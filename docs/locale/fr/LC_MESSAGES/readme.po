@@ -1,7 +1,7 @@
 # TRANSLATION TEMPLATE FOR readme.rst.
 # Copyright (C) 2018, SekouD
 # This file is distributed under the same license as the MLConjug package.
-# SekouD <sekoud.python@gmail.com>, 2018.
+# SekouD <diao.sekou.nlp@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 11:51+0200\n"
 "PO-Revision-Date: 2018-06-27 14:02+0200\n"
-"Last-Translator: SekouD <sekoud.python@gmail.com>\n"
+"Last-Translator: SekouD <diao.sekou.nlp@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -20,8 +20,8 @@ msgstr ""
 "X-Generator: Poedit 2.0.8\n"
 
 #: ../../../README.rst:7
-msgid "mlconjug"
-msgstr "mlconjug"
+msgid "mlconjug3"
+msgstr "mlconjug3"
 
 #: ../../../README.rst:40
 msgid "A Python library to conjugate verbs in French, English, Spanish, Italian, Portuguese and Romanian (more soon) using Machine Learning techniques."
@@ -81,8 +81,8 @@ msgid "Free software: MIT license"
 msgstr "Logiciel libre: licence MIT"
 
 #: ../../../README.rst:58
-msgid "Documentation: https://mlconjug.readthedocs.io."
-msgstr "Documentation: https://mlconjug.readthedocs.io."
+msgid "Documentation: https://mlconjug3.readthedocs.io."
+msgstr "Documentation: https://mlconjug3.readthedocs.io."
 
 #: ../../../README.rst:61
 msgid "Supported Languages"

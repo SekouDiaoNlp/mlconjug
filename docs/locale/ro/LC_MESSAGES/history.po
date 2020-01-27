@@ -1,7 +1,7 @@
 # TRANSLATION TEMPLATE FOR history.rst.
 # Copyright (C) 2018, SekouD
 # This file is distributed under the same license as the MLConjug package.
-# SekouD <sekoud.python@gmail.com>, 2018.
+# SekouD <diao.sekou.nlp@gmail.com>, 2018.
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 11:51+0200\n"
 "PO-Revision-Date: 2018-06-16 18:14+0000\n"
-"Last-Translator: SekouD <sekoud.python@gmail.com>.\n"
+"Last-Translator: SekouD <diao.sekou.nlp@gmail.com>.\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -60,9 +60,9 @@ msgstr ""
 "mai bună manipulare a caracterelor unicode."
 
 #: ../../../HISTORY.rst:23
-msgid "New class ConjugManager to more easily add new languages to mlconjug."
+msgid "New class ConjugManager to more easily add new languages to mlconjug3."
 msgstr ""
-"Noua clasă ConjugManager pentru a adăuga mai ușor limbi noi în mlconjug."
+"Noua clasă ConjugManager pentru a adăuga mai ușor limbi noi în mlconjug3."
 
 #: ../../../HISTORY.rst:28
 #, fuzzy
@@ -139,11 +139,11 @@ msgstr ""
 
 #: ../../../HISTORY.rst:41
 msgid ""
-"The whole package have been typed check. I will soon add mlconjug's type "
+"The whole package have been typed check. I will soon add mlconjug3's type "
 "stubs to typeshed."
 msgstr ""
 "Întregul pachet a fost tipărit verificat. Voi adăuga în curând niște stub-"
-"uri de tip mlconjug pe care să le tipărești."
+"uri de tip mlconjug3 pe care să le tipărești."
 
 #: ../../../HISTORY.rst:45
 #, fuzzy
@@ -282,10 +282,10 @@ msgstr "Ameliorat localizarea programului."
 
 #: ../../../HISTORY.rst:65 ../../../HISTORY.rst:78
 msgid ""
-"Now the user interface of mlconjug is avalaible in French, Spanish, Italian,"
+"Now the user interface of mlconjug3 is avalaible in French, Spanish, Italian,"
 " Portuguese and Romanian, in addition to English."
 msgstr ""
-"Acum, interfața cu utilizatorul de mlconjug este disponibilă în engleză, "
+"Acum, interfața cu utilizatorul de mlconjug3 este disponibilă în engleză, "
 "franceză, spaniolă, italiană, portugheză și română."
 
 #: ../../../HISTORY.rst:66

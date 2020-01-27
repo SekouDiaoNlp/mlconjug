@@ -16,16 +16,16 @@ MLConjug uses scikit-learn to implement the Machine Learning algorithms.
 Users of the library can use any compatible classifiers from scikit-learn to modify and retrain the pipeline.
 
 Usage example:
-    $ mlconjug manger
+    $ mlconjug3 manger
 
-    $ mlconjug bring -l en
+    $ mlconjug3 bring -l en
 
-    $ mlconjug gallofar --language es
+    $ mlconjug3 gallofar --language es
 
 """
 
 __author__ = """SekouD"""
-__email__ = 'sekoud.python@gmail.com'
+__email__ = 'diao.sekou.nlp@gmail.com'
 __version__ = '3.6.1'
 __copyright__ = "Copyright (c) 2017, SekouD"
 __credits__ = ("Pierre Sarrazin",)
@@ -33,7 +33,7 @@ __license__ = "MIT"
 __maintainer__ = "SekouD"
 __status__ = "Production"
 
-from .mlconjug import *
+from .mlconjug3 import *
 from .PyVerbiste import *
 
 from sklearn.feature_selection import SelectFromModel
@@ -101,7 +101,7 @@ def _getdoc(obj):
 _user_locale = _get_user_locale()
 
 if _user_locale in _TRANSLATED_LANGUAGES:
-    _MLCONJUG_TRANSLATIONS = gettext.translation(domain='mlconjug',
+    _MLCONJUG_TRANSLATIONS = gettext.translation(domain='mlconjug3',
                                                 localedir=_TRANSLATIONS_PATH,
                                                 languages=[_user_locale], fallback=True, codeset='UTF-8')
 else:

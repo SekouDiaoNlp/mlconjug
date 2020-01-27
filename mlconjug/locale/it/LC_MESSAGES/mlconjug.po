@@ -1,6 +1,6 @@
-# Translation template for mlconjug.py.
+# Translation template for mlconjug3.py.
 # Copyright (C) 2018 SekouD
-# SekouD <sekoud.python@gmail.com>, 2018.
+# SekouD <diao.sekou.nlp@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 2.0.8\n"
-"Last-Translator: SekouD <sekoud.python@gmail.com>\n"
+"Last-Translator: SekouD <diao.sekou.nlp@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: it\n"
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:51
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:51
 msgid ""
 "\n"
 "    | This is the main class of the project.\n"
@@ -55,7 +55,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:77
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:77
 msgid ""
 "\n"
 "        | This is the main method of this class.\n"
@@ -95,11 +95,11 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:95
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:95
 msgid "The supplied word: {0} is not a valid verb in {1}."
 msgstr "La parola fornita: {0} non è un verbo valido in {1}."
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:117
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:117
 msgid ""
 "\n"
 "        Assigns the provided pre-trained scikit-learn model to be able to "
@@ -117,7 +117,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:129
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:129
 msgid ""
 "\n"
 "    | Custom Vectorizer optimized for extracting verbs features.\n"
@@ -148,7 +148,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:139
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:139
 msgid ""
 "\n"
 "        Parses a verb and returns the ending ngrams.\n"
@@ -168,7 +168,7 @@ msgstr ""
 "            N-gram finali del verbo.\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:156
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:156
 msgid ""
 "\n"
 "    | This class holds and manages the data set.\n"
@@ -190,7 +190,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:181
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:181
 msgid ""
 "\n"
 "        | Populates the dictionary containing the conjugation templates.\n"
@@ -204,7 +204,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:195
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:195
 msgid ""
 "\n"
 "        Splits the data into a training and a testing set.\n"
@@ -228,11 +228,11 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:206
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:206
 msgid "The split proportion must be between 0 and 1."
 msgstr "La proporzione divisa deve essere compresa tra 0 e 1."
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:231
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:231
 msgid ""
 "\n"
 "    | This class manages the scikit-learn model.\n"
@@ -266,7 +266,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:258
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:258
 msgid ""
 "\n"
 "        Trains the model on the supplied samples and labels.\n"
@@ -288,7 +288,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\mlconjug.py:271
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\mlconjug3.py:271
 msgid ""
 "\n"
 "        Predicts the conjugation class of the provided list of verbs.\n"
@@ -310,7 +310,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:91
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:91
 msgid ""
 "\n"
 "    This is the class handling the Verbiste xml files.\n"
@@ -331,7 +331,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:102
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:102
 msgid ""
 "Unsupported language.\n"
 "The allowed languages are fr, en, es, it, pt, ro."
@@ -339,7 +339,7 @@ msgstr ""
 "Lingua non supportata\n"
 "Le lingue consentite sono fr, en, es, it, pt, ro."
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:120
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:120
 msgid ""
 "\n"
 "        Load and parses the verbs from xml file.\n"
@@ -357,7 +357,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:131
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:131
 msgid ""
 "\n"
 "        Parses XML file\n"
@@ -381,7 +381,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:151
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:151
 msgid ""
 "\n"
 "        | Detects the allowed endings for verbs in the supported languages.\n"
@@ -410,7 +410,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:166
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:166
 msgid ""
 "\n"
 "        | Checks if the verb is a valid verb in the given language.\n"
@@ -438,7 +438,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:186
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:186
 msgid ""
 "\n"
 "        Load and parses the conjugations from xml file.\n"
@@ -456,7 +456,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:197
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:197
 msgid ""
 "\n"
 "        Parses XML file\n"
@@ -480,7 +480,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:218
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:218
 msgid ""
 "\n"
 "        Load and parses the inflected forms of the tense from xml file.\n"
@@ -502,7 +502,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:241
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:241
 msgid ""
 "\n"
 "        Gets verb information and returns a VerbInfo instance.\n"
@@ -523,7 +523,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:259
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:259
 msgid ""
 "\n"
 "        Gets conjugation information corresponding to the given template.\n"
@@ -546,7 +546,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:276
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:276
 msgid ""
 "\n"
 "    This class defines the Verbiste verb information structure.\n"
@@ -573,7 +573,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:305
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:305
 msgid ""
 "\n"
 "    This class defines the Verb Object.\n"
@@ -599,7 +599,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:331
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:331
 msgid ""
 "\n"
 "        | Populates the inflected forms of the verb.\n"
@@ -619,7 +619,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:358
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:358
 msgid ""
 "\n"
 "    This class defines the French Verb Object.\n"
@@ -631,12 +631,12 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:367
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:405
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:445
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:483
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:521
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:559
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:367
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:405
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:445
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:483
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:521
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:559
 msgid ""
 "\n"
 "        | Populates the inflected forms of the verb.\n"
@@ -650,7 +650,7 @@ msgstr ""
 "\n"
 "        "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:396
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:396
 msgid ""
 "\n"
 "    This class defines the English Verb Object.\n"
@@ -662,7 +662,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:436
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:436
 msgid ""
 "\n"
 "    This class defines the Spanish Verb Object.\n"
@@ -674,7 +674,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:474
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:474
 msgid ""
 "\n"
 "    This class defines the Italian Verb Object.\n"
@@ -686,7 +686,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:512
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:512
 msgid ""
 "\n"
 "    This class defines the Portuguese Verb Object.\n"
@@ -698,7 +698,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\PyVerbiste.py:550
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\PyVerbiste.py:550
 msgid ""
 "\n"
 "    This class defines the Romanian Verb Object.\n"
@@ -710,7 +710,7 @@ msgstr ""
 "\n"
 "    "
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\cli.py:14
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\cli.py:14
 msgid ""
 "The language for the conjugation model. The values can be fr, en, es, it, pt "
 "or ro. The default value is fr."
@@ -718,6 +718,6 @@ msgstr ""
 "La lingua per il modello di coniugazione. I valori possono essere fr, en, "
 "es, it, pt o ro. Il valore predefinito è fr."
 
-#: C:\Users\Utilisateur\PycharmProjects\mlconjug\mlconjug\cli.py:17
-msgid "Console script for mlconjug."
-msgstr "Script della console per mlconjug."
+#: C:\Users\Utilisateur\PycharmProjects\mlconjug3\mlconjug3\cli.py:17
+msgid "Console script for mlconjug3."
+msgstr "Script della console per mlconjug3."
