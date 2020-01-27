@@ -27,8 +27,8 @@ mlconjug
         :target: https://pyup.io/repos/github/SekouDiaoNlp/mlconjug3/
         :alt: Depedencies Update Status
 
-.. image:: https://codecov.io/gh/SekouD/mlconjug/branch/master/graph/badge.svg
-        :target: https://codecov.io/gh/SekouD/mlconjug
+.. image:: https://codecov.io/gh/SekouDiaoNlp/mlconjug3/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/SekouDiaoNlp/mlconjug3
         :alt: Code Coverage Status
 
 .. image:: https://snyk.io/test/github/SekouD/mlconjug/badge.svg?targetFile=requirements.txt
