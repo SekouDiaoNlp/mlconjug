@@ -20,7 +20,7 @@ mlconjug3
         :alt: Windows Continuous Integration Status
 
 .. image:: https://readthedocs.org/projects/mlconjug3/badge/?version=latest
-        :target: https://mlconjug3.readthedocs.io/en/latest
+        :target: https://mlconjug3.readthedocs.io/en/latest/
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/SekouDiaoNlp/mlconjug3/shield.svg
