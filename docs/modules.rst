@@ -3,7 +3,7 @@ Package Api Documentation for mlconjug3
 =======================================
 
 
-API Reference for the classes in mlconjug3.mlconjug3.py
+API Reference for the classes in mlconjug3.mlconjug.py
 -----------------------------------------------------
 
 .. automodule:: mlconjug3.mlconjug3

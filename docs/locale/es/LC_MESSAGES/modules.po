@@ -23,8 +23,8 @@ msgid "Package Api Documentation for mlconjug3"
 msgstr "Package Api Documentation for mlconjug3"
 
 #: ../../modules.rst:7
-msgid "API Reference for the classes in mlconjug3.mlconjug3.py"
-msgstr "Referencia de API para las clases en mlconjug3.mlconjug3.py"
+msgid "API Reference for the classes in mlconjug3.mlconjug.py"
+msgstr "Referencia de API para las clases en mlconjug3.mlconjug.py"
 
 #: mlconjug3.mlconjug3:1 of
 msgid "MLConjug Main module."
