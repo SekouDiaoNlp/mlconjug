@@ -166,7 +166,7 @@ class Conjugator:
                 _('The supplied word: {0} is not a valid verb in {1}.').format(verb, _LANGUAGE_FULL[self.language]))
         if verb not in self.conjug_manager.verbs.keys():
             if self.model is None:
-                logger.warning(_('Please provide an instance of a mlconjug3.mlconjug3.Model'))
+                logger.warning(_('Please provide an instance of a mlconjug3.mlconjug.Model'))
                 raise ValueError(
                 _('The supplied word: {0} is not in the conjugation {1} table and no Conjugation Model was provided.').format(
                     verb, _LANGUAGE_FULL[self.language]))
@@ -206,7 +206,7 @@ class Conjugator:
 
         """
         if not isinstance(model, Model):
-            logger.warning(_('Please provide an instance of a mlconjug3.mlconjug3.Model'))
+            logger.warning(_('Please provide an instance of a mlconjug3.mlconjug.Model'))
             raise ValueError
         else:
             self.model = model

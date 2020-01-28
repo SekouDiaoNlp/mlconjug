@@ -25,16 +25,16 @@ msgstr "Documentazione pacchetto API per mlconjug3"
 msgid "API Reference for the classes in mlconjug3.mlconjug.py"
 msgstr "Riferimento API per le classi in mlconjug3.mlconjug.py"
 
-#: mlconjug3.mlconjug3:1 of
+#: mlconjug3.mlconjug:1 of
 msgid "MLConjug Main module."
 msgstr "Modulo MLConjug Main."
 
-#: mlconjug3.mlconjug3:3 of
+#: mlconjug3.mlconjug:3 of
 msgid "This module declares the main classes the user interacts with."
 msgstr ""
 "Questo modulo dichiara le classi principali con cui l'utente interagisce."
 
-#: mlconjug3.mlconjug3:5 of
+#: mlconjug3.mlconjug:5 of
 msgid ""
 "The module defines the classes needed to interface with Machine Learning "
 "models."
@@ -42,20 +42,20 @@ msgstr ""
 "Il modulo definisce le classi necessarie per interfacciarsi con i modelli "
 "Machine Learning."
 
-#: mlconjug3.mlconjug3.extract_verb_features:1 of
+#: mlconjug3.mlconjug.extract_verb_features:1 of
 msgid "Custom Vectorizer optimized for extracting verbs features."
 msgstr ""
 "Vectorizer personalizzato ottimizzato per l'estrazione delle funzionalità "
 "dei verbi."
 
-#: mlconjug3.mlconjug3.extract_verb_features:2 of
+#: mlconjug3.mlconjug.extract_verb_features:2 of
 msgid ""
 "The Vectorizer subclasses sklearn.feature_extraction.text.CountVectorizer ."
 msgstr ""
 "Le sottoclassi di Vectorizer "
 "sklearn.feature_extraction.text.CountVectorizer."
 
-#: mlconjug3.mlconjug3.extract_verb_features:4 of
+#: mlconjug3.mlconjug.extract_verb_features:4 of
 #, fuzzy
 msgid ""
 "As in Indo-European languages verbs are inflected by adding a morphological "
@@ -65,7 +65,7 @@ msgstr ""
 "il vettore estrae le desinenze dei verbi e produce una rappresentazione "
 "vettoriale del verbo con caratteristiche binarie."
 
-#: mlconjug3.mlconjug3.extract_verb_features:6 of
+#: mlconjug3.mlconjug.extract_verb_features:6 of
 msgid ""
 "To enhance the results of the feature extration, several other features have"
 " been included:"
@@ -73,7 +73,7 @@ msgstr ""
 "Per migliorare i risultati dell'estrazione delle funzionalità, sono state "
 "incluse molte altre funzionalità:"
 
-#: mlconjug3.mlconjug3.extract_verb_features:9 of
+#: mlconjug3.mlconjug.extract_verb_features:9 of
 msgid ""
 "The features are the verb's ending n-grams, starting n-grams, length of the "
 "verb, number of vowels, number of consonants and the ratio of vowels over "
@@ -97,25 +97,25 @@ msgstr ""
 #: mlconjug3.PyVerbiste.Verbiste._parse_verbs
 #: mlconjug3.PyVerbiste.Verbiste.get_conjug_info
 #: mlconjug3.PyVerbiste.Verbiste.get_verb_info
-#: mlconjug3.PyVerbiste.Verbiste.is_valid_verb mlconjug3.mlconjug3.Conjugator
-#: mlconjug3.mlconjug3.Conjugator.conjugate
-#: mlconjug3.mlconjug3.Conjugator.set_model mlconjug3.mlconjug3.DataSet
-#: mlconjug3.mlconjug3.DataSet.split_data mlconjug3.mlconjug3.Model
-#: mlconjug3.mlconjug3.Model.predict mlconjug3.mlconjug3.Model.train
-#: mlconjug3.mlconjug3.extract_verb_features of
+#: mlconjug3.PyVerbiste.Verbiste.is_valid_verb mlconjug3.mlconjug.Conjugator
+#: mlconjug3.mlconjug.Conjugator.conjugate
+#: mlconjug3.mlconjug.Conjugator.set_model mlconjug3.mlconjug.DataSet
+#: mlconjug3.mlconjug.DataSet.split_data mlconjug3.mlconjug.Model
+#: mlconjug3.mlconjug.Model.predict mlconjug3.mlconjug.Model.train
+#: mlconjug3.mlconjug.extract_verb_features of
 msgid "Parameters"
 msgstr "Parametri"
 
-#: mlconjug3.mlconjug3.extract_verb_features:11 of
+#: mlconjug3.mlconjug.extract_verb_features:11 of
 msgid "string. Verb to vectorize."
 msgstr "string. Verb to vectorize\""
 
-#: mlconjug3.mlconjug3.extract_verb_features:13 of
+#: mlconjug3.mlconjug.extract_verb_features:13 of
 #, fuzzy
 msgid "string. Language to analyze."
 msgstr "string. Verb to conjugate\""
 
-#: mlconjug3.mlconjug3.extract_verb_features:15 of
+#: mlconjug3.mlconjug.extract_verb_features:15 of
 msgid "tuple. The range of the ngram sliding window."
 msgstr "tuple. La gamma della finestra scorrevole di ngram."
 
@@ -130,12 +130,12 @@ msgstr "tuple. La gamma della finestra scorrevole di ngram."
 #: mlconjug3.PyVerbiste.Verbiste.get_conjug_info
 #: mlconjug3.PyVerbiste.Verbiste.get_verb_info
 #: mlconjug3.PyVerbiste.Verbiste.is_valid_verb
-#: mlconjug3.mlconjug3.Conjugator.conjugate mlconjug3.mlconjug3.Model.predict
-#: mlconjug3.mlconjug3.extract_verb_features of
+#: mlconjug3.mlconjug.Conjugator.conjugate mlconjug3.mlconjug.Model.predict
+#: mlconjug3.mlconjug.extract_verb_features of
 msgid "Returns"
 msgstr "Ritorna"
 
-#: mlconjug3.mlconjug3.extract_verb_features:17 of
+#: mlconjug3.mlconjug.extract_verb_features:17 of
 msgid ""
 "list. List of the most salient features of the verb for the task of finding "
 "it's conjugation's class."
@@ -144,16 +144,16 @@ msgstr ""
 "di trovare la classe di coniugazione."
 
 #: mlconjug3.PyVerbiste.ConjugManager:1 mlconjug3.PyVerbiste.Verb:1
-#: mlconjug3.PyVerbiste.VerbInfo:1 mlconjug3.mlconjug3.Conjugator:1
-#: mlconjug3.mlconjug3.DataSet:1 mlconjug3.mlconjug3.Model:1 of
+#: mlconjug3.PyVerbiste.VerbInfo:1 mlconjug3.mlconjug.Conjugator:1
+#: mlconjug3.mlconjug.DataSet:1 mlconjug3.mlconjug.Model:1 of
 msgid "Bases: :class:`object`"
 msgstr "Basi:: classe:` oggetto` "
 
-#: mlconjug3.mlconjug3.Conjugator:1 of
+#: mlconjug3.mlconjug.Conjugator:1 of
 msgid "This is the main class of the project."
 msgstr "Questa è la classe principale del progetto."
 
-#: mlconjug3.mlconjug3.Conjugator:2 of
+#: mlconjug3.mlconjug.Conjugator:2 of
 #, fuzzy
 msgid ""
 "The class manages the Verbiste data set and provides an interface with the "
@@ -162,7 +162,7 @@ msgstr ""
 "La classe gestisce il set di dati di Verbiste e fornisce un'interfaccia con "
 "il modello di apprendimento scikit\""
 
-#: mlconjug3.mlconjug3.Conjugator:3 of
+#: mlconjug3.mlconjug.Conjugator:3 of
 #, fuzzy
 msgid ""
 "If no parameters are provided, the default language is set to french and the"
@@ -172,7 +172,7 @@ msgstr ""
 "francese e viene utilizzato il modello di coniugazione francese pre-"
 "addestrato."
 
-#: mlconjug3.mlconjug3.Conjugator:4 of
+#: mlconjug3.mlconjug.Conjugator:4 of
 msgid ""
 "The class defines the method conjugate(verb, language) which is the main "
 "method of the module."
@@ -180,14 +180,14 @@ msgstr ""
 "La classe definisce il metodo conjugate (verb, language) che è il metodo "
 "principale del modulo."
 
-#: mlconjug3.mlconjug3.Conjugator:6 of
+#: mlconjug3.mlconjug.Conjugator:6 of
 msgid ""
 "string. Language of the conjugator. The default language is 'fr' for french."
 msgstr ""
 "string. Lingua del coniugatore. La lingua predefinita è\" fr \"per il "
 "francese."
 
-#: mlconjug3.mlconjug3.Conjugator:8 of
+#: mlconjug3.mlconjug.Conjugator:8 of
 msgid ""
 "mlconjug3.Model or scikit-learn Pipeline or Classifier implementing the fit()"
 " and predict() methods. A user provided pipeline if the user has trained his"
@@ -197,15 +197,15 @@ msgstr ""
 "metodi fit () e prediction (). Una pipeline fornita dall'utente se l'utente "
 "ha addestrato la propria pipeline."
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:1 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:1 of
 msgid "This is the main method of this class."
 msgstr "Questo è il metodo principale di questa classe."
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:2 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:2 of
 msgid "It first checks to see if the verb is in Verbiste."
 msgstr "Prima controlla se il verbo è in Verbiste."
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:4 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:4 of
 #, fuzzy
 msgid ""
 "If it is not, and a pre-trained scikit-learn pipeline has been supplied, the"
@@ -215,17 +215,17 @@ msgstr ""
 "Se non lo è, ed è stato fornito un modello di apprendimento scikit pre-"
 "addestrato, il metodo chiama il modello"
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:6 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:6 of
 msgid "Returns a Verb object or None."
 msgstr "Restituisce un oggetto Verb o None."
 
 #: mlconjug3.PyVerbiste.ConjugManager.get_verb_info:3
 #: mlconjug3.PyVerbiste.Verbiste.get_verb_info:3
-#: mlconjug3.mlconjug3.Conjugator.conjugate:8 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:8 of
 msgid "string. Verb to conjugate."
 msgstr "string. Verb to conjugate\""
 
-#: mlconjug3.PyVerbiste.Verb:5 mlconjug3.mlconjug3.Conjugator.conjugate:10 of
+#: mlconjug3.PyVerbiste.Verb:5 mlconjug3.mlconjug.Conjugator.conjugate:10 of
 msgid ""
 "string. Toggles abbreviated or full pronouns. The default value is 'abbrev'."
 " Select 'pronoun' for full pronouns."
@@ -233,11 +233,11 @@ msgstr ""
 "string Attiva i pronomi abbreviati o pieni Il valore predefinito è\" abbrev "
 "\"Seleziona\" pronome \"per i pronomi completi."
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:14 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:14 of
 msgid "Verb object or None."
 msgstr "Oggetto Verb o None."
 
-#: mlconjug3.mlconjug3.Conjugator.set_model:1 of
+#: mlconjug3.mlconjug.Conjugator.set_model:1 of
 #, fuzzy
 msgid ""
 "Assigns the provided pre-trained scikit-learn pipeline to be able to "
@@ -246,15 +246,15 @@ msgstr ""
 "Assegna il modello pre-addestrato fornito di scikit per imparare a coniugare"
 " verbi sconosciuti."
 
-#: mlconjug3.mlconjug3.Conjugator.set_model:3 of
+#: mlconjug3.mlconjug.Conjugator.set_model:3 of
 msgid "scikit-learn Classifier or Pipeline."
 msgstr "Scikit-learn Classifier o Pipeline."
 
-#: mlconjug3.mlconjug3.DataSet:1 of
+#: mlconjug3.mlconjug.DataSet:1 of
 msgid "This class holds and manages the data set."
 msgstr "Questa classe contiene e gestisce il set di dati."
 
-#: mlconjug3.mlconjug3.DataSet:2 of
+#: mlconjug3.mlconjug.DataSet:2 of
 #, fuzzy
 msgid ""
 "Defines helper methodss for managing Machine Learning tasks like "
@@ -263,40 +263,40 @@ msgstr ""
 "Definisce le funzioni di supporto per la gestione delle attività di Machine "
 "Learning come la costruzione di un set di training e test."
 
-#: mlconjug3.mlconjug3.DataSet:4 of
+#: mlconjug3.mlconjug.DataSet:4 of
 msgid "A dictionary of verbs and their corresponding conjugation class."
 msgstr ""
 "Un dizionario di verbi e la loro corrispondente classe di coniugazione."
 
-#: mlconjug3.mlconjug3.DataSet.construct_dict_conjug:1 of
+#: mlconjug3.mlconjug.DataSet.construct_dict_conjug:1 of
 msgid "Populates the dictionary containing the conjugation templates."
 msgstr "Compila il dizionario contenente i modelli di coniugazione."
 
-#: mlconjug3.mlconjug3.DataSet.construct_dict_conjug:2 of
+#: mlconjug3.mlconjug.DataSet.construct_dict_conjug:2 of
 msgid "Populates the lists containing the verbs and their templates."
 msgstr "Compila gli elenchi contenenti i verbi e i loro modelli."
 
-#: mlconjug3.mlconjug3.DataSet.split_data:1 of
+#: mlconjug3.mlconjug.DataSet.split_data:1 of
 msgid "Splits the data into a training and a testing set."
 msgstr "Divide i dati in una formazione e un set di test."
 
-#: mlconjug3.mlconjug3.DataSet.split_data:3 of
+#: mlconjug3.mlconjug.DataSet.split_data:3 of
 msgid "int. Minimum size of conjugation class to be split."
 msgstr "int. Dimensione minima della classe di coniugazione da dividere\""
 
-#: mlconjug3.mlconjug3.DataSet.split_data:5 of
+#: mlconjug3.mlconjug.DataSet.split_data:5 of
 msgid ""
 "float. Proportion of samples in the training set. Must be between 0 and 1."
 msgstr ""
 "float. Proporzione di campioni nel set di allenamento. Deve essere compresa "
 "tra 0 e 1."
 
-#: mlconjug3.mlconjug3.Model:1 of
+#: mlconjug3.mlconjug.Model:1 of
 #, fuzzy
 msgid "This class manages the scikit-learn pipeline."
 msgstr "Questa classe gestisce il modello di apprendimento scikit\""
 
-#: mlconjug3.mlconjug3.Model:2 of
+#: mlconjug3.mlconjug.Model:2 of
 msgid ""
 "The Pipeline includes a feature vectorizer, a feature selector and a "
 "classifier."
@@ -304,7 +304,7 @@ msgstr ""
 "La pipeline include un vettore di funzionalità, un selettore di funzionalità"
 " e un classificatore."
 
-#: mlconjug3.mlconjug3.Model:4 of
+#: mlconjug3.mlconjug.Model:4 of
 #, fuzzy
 msgid ""
 "If any of the vectorizer, feature selector or classifier is not supplied at "
@@ -314,40 +314,40 @@ msgstr ""
 "Il metodo __init__ fornirà buoni valori predefiniti che ottengono più del "
 "92% di accuratezza di previsione."
 
-#: mlconjug3.mlconjug3.Model:6 of
+#: mlconjug3.mlconjug.Model:6 of
 msgid "scikit-learn Vectorizer."
 msgstr "Scikit-learn Vectorizer."
 
-#: mlconjug3.mlconjug3.Model:7 of
+#: mlconjug3.mlconjug.Model:7 of
 msgid "scikit-learn Classifier with a fit_transform() method"
 msgstr "Scikit-learn Classifier con un metodo fit_transform ()"
 
-#: mlconjug3.mlconjug3.Model:8 of
+#: mlconjug3.mlconjug.Model:8 of
 msgid "scikit-learn Classifier with a predict() method"
 msgstr "Scikit-learn Classifier con un metodo di previsione ()"
 
-#: mlconjug3.mlconjug3.Model:9 of
+#: mlconjug3.mlconjug.Model:9 of
 msgid "language of the corpus of verbs to be analyzed."
 msgstr "linguaggio del corpus di verbi da analizzare."
 
-#: mlconjug3.mlconjug3.Model.train:1 of
+#: mlconjug3.mlconjug.Model.train:1 of
 #, fuzzy
 msgid "Trains the pipeline on the supplied samples and labels."
 msgstr "Prepara il modello sui campioni e sulle etichette forniti."
 
-#: mlconjug3.mlconjug3.Model.predict:3 mlconjug3.mlconjug3.Model.train:3 of
+#: mlconjug3.mlconjug.Model.predict:3 mlconjug3.mlconjug.Model.train:3 of
 msgid "list. List of verbs."
 msgstr "sgstr \"Elenco dei verbi."
 
-#: mlconjug3.mlconjug3.Model.train:5 of
+#: mlconjug3.mlconjug.Model.train:5 of
 msgid "list. List of verb templates."
 msgstr "sgstr \"Elenco di modelli di verbi."
 
-#: mlconjug3.mlconjug3.Model.predict:1 of
+#: mlconjug3.mlconjug.Model.predict:1 of
 msgid "Predicts the conjugation class of the provided list of verbs."
 msgstr "Predice la classe di coniugazione dell'elenco di verbi fornito."
 
-#: mlconjug3.mlconjug3.Model.predict:5 of
+#: mlconjug3.mlconjug.Model.predict:5 of
 msgid "list. List of predicted conjugation groups."
 msgstr "sgstr \"Elenco dei gruppi di coniugazione previsti."
 

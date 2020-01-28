@@ -25,16 +25,16 @@ msgstr "Pachetul Api Documentația pentru mlconjug3"
 msgid "API Reference for the classes in mlconjug3.mlconjug.py"
 msgstr "Referință API pentru clasele din mlconjug3.mlconjug.py"
 
-#: mlconjug3.mlconjug3:1 of
+#: mlconjug3.mlconjug:1 of
 msgid "MLConjug Main module."
 msgstr "Modul principal MLConjug."
 
-#: mlconjug3.mlconjug3:3 of
+#: mlconjug3.mlconjug:3 of
 msgid "This module declares the main classes the user interacts with."
 msgstr ""
 "Acest modul declară clasele principale cu care interacționează utilizatorul."
 
-#: mlconjug3.mlconjug3:5 of
+#: mlconjug3.mlconjug:5 of
 msgid ""
 "The module defines the classes needed to interface with Machine Learning "
 "models."
@@ -42,19 +42,19 @@ msgstr ""
 "Modulul definește clasele necesare pentru a interconecta cu modelele Machine"
 " Learning."
 
-#: mlconjug3.mlconjug3.extract_verb_features:1 of
+#: mlconjug3.mlconjug.extract_verb_features:1 of
 msgid "Custom Vectorizer optimized for extracting verbs features."
 msgstr ""
 "Vectorizatorul personalizat optimizat pentru extragerea caracteristicilor "
 "verbelor."
 
-#: mlconjug3.mlconjug3.extract_verb_features:2 of
+#: mlconjug3.mlconjug.extract_verb_features:2 of
 msgid ""
 "The Vectorizer subclasses sklearn.feature_extraction.text.CountVectorizer ."
 msgstr ""
 "Subclasele Vectorizer sklearn.feature_extraction.text.CountVectorizer."
 
-#: mlconjug3.mlconjug3.extract_verb_features:4 of
+#: mlconjug3.mlconjug.extract_verb_features:4 of
 #, fuzzy
 msgid ""
 "As in Indo-European languages verbs are inflected by adding a morphological "
@@ -64,7 +64,7 @@ msgstr ""
 "ectorizatorul extrage terminațiile verbului și produce o reprezentare "
 "vectorială a verbului cu caracteristici binare. "
 
-#: mlconjug3.mlconjug3.extract_verb_features:6 of
+#: mlconjug3.mlconjug.extract_verb_features:6 of
 msgid ""
 "To enhance the results of the feature extration, several other features have"
 " been included:"
@@ -72,7 +72,7 @@ msgstr ""
 "Pentru a îmbunătăți rezultatele extragerii de elemente, au fost incluse și "
 "alte caracteristici:"
 
-#: mlconjug3.mlconjug3.extract_verb_features:9 of
+#: mlconjug3.mlconjug.extract_verb_features:9 of
 msgid ""
 "The features are the verb's ending n-grams, starting n-grams, length of the "
 "verb, number of vowels, number of consonants and the ratio of vowels over "
@@ -96,25 +96,25 @@ msgstr ""
 #: mlconjug3.PyVerbiste.Verbiste._parse_verbs
 #: mlconjug3.PyVerbiste.Verbiste.get_conjug_info
 #: mlconjug3.PyVerbiste.Verbiste.get_verb_info
-#: mlconjug3.PyVerbiste.Verbiste.is_valid_verb mlconjug3.mlconjug3.Conjugator
-#: mlconjug3.mlconjug3.Conjugator.conjugate
-#: mlconjug3.mlconjug3.Conjugator.set_model mlconjug3.mlconjug3.DataSet
-#: mlconjug3.mlconjug3.DataSet.split_data mlconjug3.mlconjug3.Model
-#: mlconjug3.mlconjug3.Model.predict mlconjug3.mlconjug3.Model.train
-#: mlconjug3.mlconjug3.extract_verb_features of
+#: mlconjug3.PyVerbiste.Verbiste.is_valid_verb mlconjug3.mlconjug.Conjugator
+#: mlconjug3.mlconjug.Conjugator.conjugate
+#: mlconjug3.mlconjug.Conjugator.set_model mlconjug3.mlconjug.DataSet
+#: mlconjug3.mlconjug.DataSet.split_data mlconjug3.mlconjug.Model
+#: mlconjug3.mlconjug.Model.predict mlconjug3.mlconjug.Model.train
+#: mlconjug3.mlconjug.extract_verb_features of
 msgid "Parameters"
 msgstr "Parametri"
 
-#: mlconjug3.mlconjug3.extract_verb_features:11 of
+#: mlconjug3.mlconjug.extract_verb_features:11 of
 msgid "string. Verb to vectorize."
 msgstr "șir. Verb să vectorizeze."
 
-#: mlconjug3.mlconjug3.extract_verb_features:13 of
+#: mlconjug3.mlconjug.extract_verb_features:13 of
 #, fuzzy
 msgid "string. Language to analyze."
 msgstr "șir. Verbul să conjugați."
 
-#: mlconjug3.mlconjug3.extract_verb_features:15 of
+#: mlconjug3.mlconjug.extract_verb_features:15 of
 msgid "tuple. The range of the ngram sliding window."
 msgstr "tuplu. Intervalul ferestrei glisante ngram."
 
@@ -129,12 +129,12 @@ msgstr "tuplu. Intervalul ferestrei glisante ngram."
 #: mlconjug3.PyVerbiste.Verbiste.get_conjug_info
 #: mlconjug3.PyVerbiste.Verbiste.get_verb_info
 #: mlconjug3.PyVerbiste.Verbiste.is_valid_verb
-#: mlconjug3.mlconjug3.Conjugator.conjugate mlconjug3.mlconjug3.Model.predict
-#: mlconjug3.mlconjug3.extract_verb_features of
+#: mlconjug3.mlconjug.Conjugator.conjugate mlconjug3.mlconjug.Model.predict
+#: mlconjug3.mlconjug.extract_verb_features of
 msgid "Returns"
 msgstr "Se intoarce"
 
-#: mlconjug3.mlconjug3.extract_verb_features:17 of
+#: mlconjug3.mlconjug.extract_verb_features:17 of
 msgid ""
 "list. List of the most salient features of the verb for the task of finding "
 "it's conjugation's class."
@@ -143,16 +143,16 @@ msgstr ""
 " găsi clasa lui de conjugare."
 
 #: mlconjug3.PyVerbiste.ConjugManager:1 mlconjug3.PyVerbiste.Verb:1
-#: mlconjug3.PyVerbiste.VerbInfo:1 mlconjug3.mlconjug3.Conjugator:1
-#: mlconjug3.mlconjug3.DataSet:1 mlconjug3.mlconjug3.Model:1 of
+#: mlconjug3.PyVerbiste.VerbInfo:1 mlconjug3.mlconjug.Conjugator:1
+#: mlconjug3.mlconjug.DataSet:1 mlconjug3.mlconjug.Model:1 of
 msgid "Bases: :class:`object`"
 msgstr "Bazele:: clasa:` obiect` "
 
-#: mlconjug3.mlconjug3.Conjugator:1 of
+#: mlconjug3.mlconjug.Conjugator:1 of
 msgid "This is the main class of the project."
 msgstr "Aceasta este clasa principală a proiectului."
 
-#: mlconjug3.mlconjug3.Conjugator:2 of
+#: mlconjug3.mlconjug.Conjugator:2 of
 #, fuzzy
 msgid ""
 "The class manages the Verbiste data set and provides an interface with the "
@@ -161,7 +161,7 @@ msgstr ""
 "Clasa gestionează setul de date Verbiste și oferă o interfață cu modelul "
 "scikit-learn\""
 
-#: mlconjug3.mlconjug3.Conjugator:3 of
+#: mlconjug3.mlconjug.Conjugator:3 of
 #, fuzzy
 msgid ""
 "If no parameters are provided, the default language is set to french and the"
@@ -170,7 +170,7 @@ msgstr ""
 "Dacă nu sunt furnizați parametri, limba prestabilită este setată la limba "
 "franceză și se folosește modelul de conjugare franceză pre-instruit."
 
-#: mlconjug3.mlconjug3.Conjugator:4 of
+#: mlconjug3.mlconjug.Conjugator:4 of
 msgid ""
 "The class defines the method conjugate(verb, language) which is the main "
 "method of the module."
@@ -178,12 +178,12 @@ msgstr ""
 "Clasa definește metoda conjugată (verb, limbă) care este principala metodă a"
 " modulului."
 
-#: mlconjug3.mlconjug3.Conjugator:6 of
+#: mlconjug3.mlconjug.Conjugator:6 of
 msgid ""
 "string. Language of the conjugator. The default language is 'fr' for french."
 msgstr "Limbajul conjugatorului. Limba implicită este\" fr \"pentru franceză."
 
-#: mlconjug3.mlconjug3.Conjugator:8 of
+#: mlconjug3.mlconjug.Conjugator:8 of
 msgid ""
 "mlconjug3.Model or scikit-learn Pipeline or Classifier implementing the fit()"
 " and predict() methods. A user provided pipeline if the user has trained his"
@@ -193,15 +193,15 @@ msgstr ""
 "metodele fit () și predictive (). O conductă furnizată de utilizator în "
 "cazul în care utilizatorul și-a pregătit propria conductă."
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:1 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:1 of
 msgid "This is the main method of this class."
 msgstr "Aceasta este principala metodă a acestei clase."
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:2 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:2 of
 msgid "It first checks to see if the verb is in Verbiste."
 msgstr "Mai întâi verifică dacă verbul este în Verbiste\""
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:4 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:4 of
 #, fuzzy
 msgid ""
 "If it is not, and a pre-trained scikit-learn pipeline has been supplied, the"
@@ -211,17 +211,17 @@ msgstr ""
 "Dacă nu este, și a fost furnizat un model de scikit-learning pre-instruit, "
 "metoda mai apoi solicită modelul"
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:6 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:6 of
 msgid "Returns a Verb object or None."
 msgstr "Returnează un obiect Verb sau Nici unul."
 
 #: mlconjug3.PyVerbiste.ConjugManager.get_verb_info:3
 #: mlconjug3.PyVerbiste.Verbiste.get_verb_info:3
-#: mlconjug3.mlconjug3.Conjugator.conjugate:8 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:8 of
 msgid "string. Verb to conjugate."
 msgstr "șir. Verbul să conjugați."
 
-#: mlconjug3.PyVerbiste.Verb:5 mlconjug3.mlconjug3.Conjugator.conjugate:10 of
+#: mlconjug3.PyVerbiste.Verb:5 mlconjug3.mlconjug.Conjugator.conjugate:10 of
 msgid ""
 "string. Toggles abbreviated or full pronouns. The default value is 'abbrev'."
 " Select 'pronoun' for full pronouns."
@@ -229,11 +229,11 @@ msgstr ""
 "string\" (\"string\"), controlează denumirile abreviate sau complet, "
 "valoarea implicită este \"abbrev\""
 
-#: mlconjug3.mlconjug3.Conjugator.conjugate:14 of
+#: mlconjug3.mlconjug.Conjugator.conjugate:14 of
 msgid "Verb object or None."
 msgstr "Obiect Verb sau Niciunul."
 
-#: mlconjug3.mlconjug3.Conjugator.set_model:1 of
+#: mlconjug3.mlconjug.Conjugator.set_model:1 of
 #, fuzzy
 msgid ""
 "Assigns the provided pre-trained scikit-learn pipeline to be able to "
@@ -242,15 +242,15 @@ msgstr ""
 "Atribuie modelul Scikit-Learn pre-instruit furnizat pentru a putea conjuga "
 "verbe necunoscute."
 
-#: mlconjug3.mlconjug3.Conjugator.set_model:3 of
+#: mlconjug3.mlconjug.Conjugator.set_model:3 of
 msgid "scikit-learn Classifier or Pipeline."
 msgstr "clasificator sau conducte scikit-learn\""
 
-#: mlconjug3.mlconjug3.DataSet:1 of
+#: mlconjug3.mlconjug.DataSet:1 of
 msgid "This class holds and manages the data set."
 msgstr "Această clasă deține și gestionează setul de date."
 
-#: mlconjug3.mlconjug3.DataSet:2 of
+#: mlconjug3.mlconjug.DataSet:2 of
 #, fuzzy
 msgid ""
 "Defines helper methodss for managing Machine Learning tasks like "
@@ -259,39 +259,39 @@ msgstr ""
 "Definește funcțiile de ajutor pentru gestionarea sarcinilor de învățare a "
 "mașinilor, cum ar fi construirea unui set de instruire și testare."
 
-#: mlconjug3.mlconjug3.DataSet:4 of
+#: mlconjug3.mlconjug.DataSet:4 of
 msgid "A dictionary of verbs and their corresponding conjugation class."
 msgstr "Un dicționar de verbe și clasa lor de conjugare corespunzătoare."
 
-#: mlconjug3.mlconjug3.DataSet.construct_dict_conjug:1 of
+#: mlconjug3.mlconjug.DataSet.construct_dict_conjug:1 of
 msgid "Populates the dictionary containing the conjugation templates."
 msgstr "Populează dicționarul care conține șabloanele de conjugare."
 
-#: mlconjug3.mlconjug3.DataSet.construct_dict_conjug:2 of
+#: mlconjug3.mlconjug.DataSet.construct_dict_conjug:2 of
 msgid "Populates the lists containing the verbs and their templates."
 msgstr "Populează listele care conțin verbele și șabloanele lor\""
 
-#: mlconjug3.mlconjug3.DataSet.split_data:1 of
+#: mlconjug3.mlconjug.DataSet.split_data:1 of
 msgid "Splits the data into a training and a testing set."
 msgstr "Împărțiți datele într-un antrenament și un set de testare."
 
-#: mlconjug3.mlconjug3.DataSet.split_data:3 of
+#: mlconjug3.mlconjug.DataSet.split_data:3 of
 msgid "int. Minimum size of conjugation class to be split."
 msgstr "int Dimensiunea minimă a clasei de conjugare care trebuie divizată."
 
-#: mlconjug3.mlconjug3.DataSet.split_data:5 of
+#: mlconjug3.mlconjug.DataSet.split_data:5 of
 msgid ""
 "float. Proportion of samples in the training set. Must be between 0 and 1."
 msgstr ""
 "float\" Proporția probelor din setul de antrenament trebuie să fie între 0 "
 "și 1. "
 
-#: mlconjug3.mlconjug3.Model:1 of
+#: mlconjug3.mlconjug.Model:1 of
 #, fuzzy
 msgid "This class manages the scikit-learn pipeline."
 msgstr "Această clasă gestionează modelul scikit-learn."
 
-#: mlconjug3.mlconjug3.Model:2 of
+#: mlconjug3.mlconjug.Model:2 of
 msgid ""
 "The Pipeline includes a feature vectorizer, a feature selector and a "
 "classifier."
@@ -299,7 +299,7 @@ msgstr ""
 "Conducta include un vectorizator de caracteristici, un selector de "
 "caracteristici și un clasificator."
 
-#: mlconjug3.mlconjug3.Model:4 of
+#: mlconjug3.mlconjug.Model:4 of
 #, fuzzy
 msgid ""
 "If any of the vectorizer, feature selector or classifier is not supplied at "
@@ -309,40 +309,40 @@ msgstr ""
 "metoda __init__ va oferi valori implicite bune care obțin precizie de "
 "prezență mai mare de 92%."
 
-#: mlconjug3.mlconjug3.Model:6 of
+#: mlconjug3.mlconjug.Model:6 of
 msgid "scikit-learn Vectorizer."
 msgstr "scikit-learn Vectorizer\""
 
-#: mlconjug3.mlconjug3.Model:7 of
+#: mlconjug3.mlconjug.Model:7 of
 msgid "scikit-learn Classifier with a fit_transform() method"
 msgstr "clasificator scikit-learn cu o metodă fit_transform ()"
 
-#: mlconjug3.mlconjug3.Model:8 of
+#: mlconjug3.mlconjug.Model:8 of
 msgid "scikit-learn Classifier with a predict() method"
 msgstr "clasificator Scikit-learn cu o metodă predictivă ()"
 
-#: mlconjug3.mlconjug3.Model:9 of
+#: mlconjug3.mlconjug.Model:9 of
 msgid "language of the corpus of verbs to be analyzed."
 msgstr "limbajul corpusului de verbe care urmează să fie analizat."
 
-#: mlconjug3.mlconjug3.Model.train:1 of
+#: mlconjug3.mlconjug.Model.train:1 of
 #, fuzzy
 msgid "Trains the pipeline on the supplied samples and labels."
 msgstr "Formează modelul pe eșantioanele și etichetele furnizate."
 
-#: mlconjug3.mlconjug3.Model.predict:3 mlconjug3.mlconjug3.Model.train:3 of
+#: mlconjug3.mlconjug.Model.predict:3 mlconjug3.mlconjug.Model.train:3 of
 msgid "list. List of verbs."
 msgstr "ista de verbe. "
 
-#: mlconjug3.mlconjug3.Model.train:5 of
+#: mlconjug3.mlconjug.Model.train:5 of
 msgid "list. List of verb templates."
 msgstr "Listă de șabloane de verb."
 
-#: mlconjug3.mlconjug3.Model.predict:1 of
+#: mlconjug3.mlconjug.Model.predict:1 of
 msgid "Predicts the conjugation class of the provided list of verbs."
 msgstr "Prezice clasa de conjugare a listei furnizate de verbe\""
 
-#: mlconjug3.mlconjug3.Model.predict:5 of
+#: mlconjug3.mlconjug.Model.predict:5 of
 msgid "list. List of predicted conjugation groups."
 msgstr "ista de grupuri prezise de conjugare. "
 

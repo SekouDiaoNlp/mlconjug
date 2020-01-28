@@ -141,7 +141,7 @@ class TestConjugator:
     conjugator = Conjugator()
 
     def test_repr(self):
-        assert self.conjugator.__repr__() == 'mlconjug3.mlconjug3.Conjugator(language=fr)'
+        assert self.conjugator.__repr__() == 'mlconjug3.mlconjug.Conjugator(language=fr)'
 
     def test_conjugate(self):
         test_verb = self.conjugator.conjugate('aller')
@@ -163,7 +163,7 @@ class TestDataSet:
     data_set = DataSet(conjug_manager.verbs)
 
     def test_repr(self):
-        assert self.data_set.__repr__() == 'mlconjug3.mlconjug3.DataSet()'
+        assert self.data_set.__repr__() == 'mlconjug3.mlconjug.DataSet()'
 
     def test_construct_dict_conjug(self):
         self.data_set.construct_dict_conjug()
@@ -196,7 +196,7 @@ class TestModel:
     dataset.split_data(proportion=0.9)
 
     def test_repr(self):
-        assert self.model.__repr__() == 'mlconjug3.mlconjug3.Model(classifier, feature_selector, vectorizer)'
+        assert self.model.__repr__() == 'mlconjug3.mlconjug.Model(classifier, feature_selector, vectorizer)'
 
     def test_train(self):
         self.model.train(self.dataset.test_input, self.dataset.test_labels)
